@@ -9,8 +9,76 @@
     "mode": "development",
     "themes": [
         {
-            "ID": "12345",
+            "ID": "1",
             "type": "front",
+            "name": "wize theme",
+            "version": "0.0.1",
+            "description": "description theme!",
+            "path": "wize-theme",
+            "screenshot": "@img/scrennshot-theme-wize.png",
+            "active": true,
+            "origin": false,
+            "author": {
+                "name": "João Ribeiro Dev",
+                "URL": "https://joaoribeiro.dev/",
+                "facebook": "https://facebook.com/joaoribeirodev",
+                "intagram": "https://intagram.com/joaribeirodev",
+                "linkedin": "https://linkedin.com/joaribeirodev",
+                "twitter": "https://twitter.com/joaoribeirodev",
+                "github": "https://github.com/joaoribeirodev",
+                "youtube": "https://youtube.com/joaoribeirodev"
+            },
+            "alias": {
+                "@img": "/public/images",
+                "@js": "/public/js",
+                "@css": "/public/css"
+            },
+            "enque": {
+                "js": ["@js/main.js"],
+                "css": ["@css/main.css"],
+                "prefecht": ["@css/main.css", "@js/main.js"]
+            },
+            "depends": {
+                "plugins": []
+            }
+        },
+        {
+            "ID": "2",
+            "type": "admin",
+            "name": "wize theme",
+            "version": "0.0.1",
+            "description": "description theme!",
+            "path": "wize-theme",
+            "screenshot": "@img/scrennshot-theme-wize.png",
+            "active": true,
+            "origin": false,
+            "author": {
+                "name": "João Ribeiro Dev",
+                "URL": "https://joaoribeiro.dev/",
+                "facebook": "https://facebook.com/joaoribeirodev",
+                "intagram": "https://intagram.com/joaribeirodev",
+                "linkedin": "https://linkedin.com/joaribeirodev",
+                "twitter": "https://twitter.com/joaoribeirodev",
+                "github": "https://github.com/joaoribeirodev",
+                "youtube": "https://youtube.com/joaoribeirodev"
+            },
+            "alias": {
+                "@img": "/public/images",
+                "@js": "/public/js",
+                "@css": "/public/css"
+            },
+            "enque": {
+                "js": ["@js/main.js"],
+                "css": ["@css/main.css"],
+                "prefecht": ["@css/main.css", "@js/main.js"]
+            },
+            "depends": {
+                "plugins": []
+            }
+        },
+        {
+            "ID": "3",
+            "type": "login",
             "name": "wize theme",
             "version": "0.0.1",
             "description": "description theme!",
@@ -54,20 +122,8 @@
             "version": "0.0.1",
             "path": "wize-plugin",
             "screenshot": "/plugins/@img/scrennshot-theme-wize.png",
-            "alias": {
-                "@img": "/public/images",
-                "@js": "/public/js",
-                "@css": "/public/css"
-            },
-            "enque": {
-                "js": ["@js/main.js"],
-                "css": ["@css/main.css"],
-                "prefecht": ["@css/main.css", "@js/main.js"]
-            },
             "depends": {
-                "plugins": [],
-                "css": [],
-                "js": []
+                "plugins": []
             }
         }
     ]

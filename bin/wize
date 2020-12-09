@@ -1,3 +1,15 @@
 #!/usr/bin/env php
 
 <?php
+
+$namespace = $argv[0];
+$command = $argv[1];
+$flags = array_slice($argv, 2);
+
+echo "\e[33m................................" . PHP_EOL;
+echo "\e[33m................................" . PHP_EOL . PHP_EOL;
+echo "\e[34m - INSTALING WIZE CMS INC - " . PHP_EOL . PHP_EOL;
+echo "\e[33m................................" . PHP_EOL;
+echo "\e[33m................................\e[00m" . PHP_EOL . PHP_EOL;
+
+print_r(random_int(1, 100000));

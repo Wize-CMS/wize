@@ -1,0 +1,13 @@
+<ifModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteBase /
+    RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+    ErrorDocument 404 /App/Errors/404.html
+    ErrorDocument 500 /App/Errors/404.html?erro=500
+    ErrorDocument 403 /App/Errors/404.html
+    ErrorDocument 400 /App/Errors/404.html
+    ErrorDocument 401 /App/Errors/404.html
+</ifModule>

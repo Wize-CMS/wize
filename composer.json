@@ -1,0 +1,28 @@
+{
+    "name": "joao/wize-cms",
+    "description": "A great CMS with a modern PHP",
+    "require": {
+        "twig/twig": "^3.1",
+        "slim/slim": "^4.7",
+        "stichoza/google-translate-php": "^4.1",
+        "coffeecode/datalayer": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "wize\\": "./",
+            "Framework\\": "Framework/",
+            "Local\\": "Local/"
+        },
+        "files": [
+            "config/index.php"
+        ]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "João Ribeiro",
+            "email": "jlribeiroaugusto@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
